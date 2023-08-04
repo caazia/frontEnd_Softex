@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Calculadora de Média</title>
+   Primeira nota <input id="nota1" type="number"> <br/>
+   Segunda  nota <input id="nota2" type="number"> <br/>
+   <button onclick="media()">Calcular Média</button>
+
+   <script type="text/javascript">
+
+    function media(){
+     var nota1 = parseFloat(document.getElementById("nota1").value);
+     var nota2 = parseFloat(document.getElementById("nota2").value);
+
+     var media = (nota1 + nota2)/2;
+
+     if(media >= 7)
+      if(media==10)
+       alert("Você foi aprovado com distinção!😃");
+      else
+       alert("Parabéns 😃, você foi aprovado com a média: "+media);
+     else
+      alert("Que pena, você foi reprovado!😥 Sua média: "+media);
+
+    }
+ </script>
+
+ </head>
+</html>
