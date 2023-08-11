@@ -1,0 +1,11 @@
+Aristóteles ficou em primeiro em Física.
+Platão ficou em segundo em Física.
+Sócrates ficou em terceiro em Física.
+
+Platão ficou em primeiro em Matemática.
+Sócrates ficou em segundo em Matemática.
+Aristóteles ficou em terceiro em Matemática.
+
+Sócrates ficou em primeiro em Química.
+Aristóteles ficou em segundo em Química.
+Platão ficou em terceiro em Química.

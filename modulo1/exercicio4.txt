@@ -1,0 +1,46 @@
+var nome: caractere
+var endereco: caractere
+var cidade: caractere
+var cpf: inteiro
+var rg: inteiro
+var idade: inteiro
+var nomeDoPai: caractere
+var nomeDaMae: caractere
+var peso: real
+var rendaBruta: real
+
+inicio
+
+escreva("digite seu nome: ");
+leia(nome)
+escreva("digite seu endereco: ");
+leia(endereco)
+escreva("digite a sua cidade: ");
+leia(cidade)
+escreva("digite seu cpf: ");
+leia(cpf)
+escreva("digite seu rg: ");
+leia(rg)
+escreva("digite a sua idade: ");
+leia(idade)
+escreva("digite o nome do seu pai: ");
+leia(nomeDoPai)
+escreva("digite o nome da sua mãe: ");
+leia(nomeDaMae)
+escreva("digite seu peso: ");
+leia(peso)
+escreva("digite sua renda bruta: ");
+leia(rendaBruta)
+
+escreva("Nome: ", nome + 
+"Endereço: ", endereco +
+"Cidade: ", cidade + 
+"CPF: ", cpf + 
+"RG: ", rg + 
+"Idade: ", idade + 
+"Nome do pai: ", nomeDoPai + 
+"Nome da mãe: ", nomeDaMae + 
+"Peso: ", peso + 
+"Renda bruta: ", rendaBruta);
+
+fimalgoritmo;

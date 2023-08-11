@@ -1,0 +1,7 @@
+
+
+Nome -> "José Almeida da Silva" 				( tipo literal, string)
+CPF -> 12345678900 						(tipo numérico, inteiro)
+RG -> 9517530 							(tipo numérico, inteiro)
+Altura -> 1.78 							(tipo numérico, real)
+Endereco -> "Rua A, 380 – Centro – Recife/PE" 			(tipo literal, caractere)
