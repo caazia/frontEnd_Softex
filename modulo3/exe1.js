@@ -1,7 +1,7 @@
 // Criando as listas
-var names = ["Cássia", "Danilo", "Luan", "Tereza", "Amanda", "Artur", "Talita", "Douglas", "Sanzia", "Thiago"];
-var age = [25, 32, 19, 27, 30, 22, 28, 24, 21, 29];
-var favoriteColors = ["azul", "verde", "amarelo", "vermelho", "roxo", "laranja", "rosa", "preto", "branco", "marrom"];
+let names = ["Cássia", "Danilo", "Luan", "Tereza", "Amanda", "Artur", "Talita", "Douglas", "Sanzia", "Thiago"];
+let age = [25, 32, 19, 27, 30, 22, 28, 24, 21, 29];
+let favoriteColors = ["azul", "verde", "amarelo", "vermelho", "roxo", "laranja", "rosa", "preto", "branco", "marrom"];
 
 // Imprimindo as listas originais
 console.log("Lista de nomes:", names);
