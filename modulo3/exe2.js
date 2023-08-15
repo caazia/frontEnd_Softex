@@ -1,12 +1,12 @@
 let animalData = [
     ["Leão", "Felino", 5],
     ["Cachorro", "Mamífero", 4],
-    ["Girafa", "Mamífero", 8],
+    ["Vaca", "Mamífero", 8],
     ["Gato", "Felino", 6],
-    ["Pinguim", "Ave", 2]
+    ["Galinha", "Ave", 2]
   ];
   
-  function imprimirInformacoesAnimais(data) {
+  function imprimirAnimais(data) {
     console.log("Nome\t\tEspécie\t\tIdade");
     console.log("----------------------------------");
     
@@ -19,5 +19,5 @@ let animalData = [
     }
   }
   
-imprimirInformacoesAnimais(animalData);
+imprimirAnimais(animalData);
   
