@@ -1,8 +1,8 @@
 let animalData = [
-    ["Leão", "Felino", 5],
-    ["Cachorro", "Mamífero", 4],
-    ["Vaca", "Mamífero", 8],
-    ["Gato", "Felino", 6],
+    ["Sapo", "Anfíbio", 1],
+    ["Cachorro", "Mamífero", 8],
+    ["Vaca", "Mamífero", 5],
+    ["Gato", "Mamífero", 6],
     ["Galinha", "Ave", 2]
   ];
   
