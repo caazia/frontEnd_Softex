@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    
+
     <!--CABECALHO-->
     <header>
         <nav style="display: flex; justify-content: center; gap: 4rem; font-size: 2rem;">
@@ -49,7 +49,32 @@
                 </tr>
             </tb>
         </table>
+    </fieldset> <br><br>
+
+    <!--FORMULARIO-->
+
+    <fieldset>
+        <legend>Entre em contato conosco: </legend>
+        <form>
+            <input type="text" id="nome" placeholder="Digite seu nome completo:" required>
+            <input type="email" placeholder="seuemail@dominio.com.br" required>
+            <input type="tel" pattern="\d{2}\-?\d{5}\-?\d{4}" minlength="11" maxlength="13"
+                id="telefone" placeholder="Ex.: 11 91234-5678">
+            <input type="text" minlength="5" maxlength="50" id="assunto" placeholder="Assunto" required>
+    
+            <textarea id="mensagem" 
+            cols="40" 
+            rows="5" 
+            maxlength="300"
+            placeholder="Sua mensagem..."
+                required></textarea>
+    
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
     </fieldset>
+    
 
 </body>
 
