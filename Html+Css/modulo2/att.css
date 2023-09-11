@@ -20,9 +20,9 @@ header nav a {
     padding: 20px;
 }
 
-.img-home {
-    width: 100vw;
-    height: 70vh;
+.cabecalho-img {
+    width: 100vw; 
+    height: 40vh;
 }
 
 .titulo {
@@ -33,7 +33,7 @@ header nav a {
 .paragrafo {
     font-size: 1.5rem;
     font-style: italic;
-    text-align: center;
+    text-align: justify;
 }
 
 .paragrafo-principal {
