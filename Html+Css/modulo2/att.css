@@ -1,5 +1,8 @@
 * {
     font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     
 }
 
@@ -18,6 +21,16 @@ header nav a {
     text-decoration: none;
     box-sizing: border-box;
     padding: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+header nav a:hover {
+    color: rgba(247, 85, 85, 0.86);
+}
+
+#home {
+    background-color: rgba(247, 204, 210, 0.83);
 }
 
 .cabecalho-img {
