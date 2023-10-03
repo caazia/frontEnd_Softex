@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f8f8f8;
+    background-color: #CCCCCC;
 }
 
 header nav {
@@ -26,11 +26,17 @@ header nav a {
 }
 
 header nav a:hover {
-    color: rgba(247, 85, 85, 0.86);
+    color: #FFB3B3;
+}
+
+section h1, p {
+    margin: 15px;
+    padding: 10px;
+    gap: 15px;
 }
 
 #home {
-    background-color: rgba(247, 204, 210, 0.83);
+    background-color:#805959;
 }
 
 .cabecalho-img {
@@ -60,15 +66,30 @@ header nav a:hover {
     display: block;
 }
 
+.lugares h3 {
+    margin: 10px;
+    padding: 10px;
+    gap: 15px;
+}
+
 .lugares img {
     text-align: center;
     margin: auto;
     display: block;
 }
+.conteudo {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 15px; 
+}
 
 footer {
-    background-color: rgb(174, 243, 243);
+    background-color: #808080;
     display: flex; 
+    height: 8vh;
+    margin-top: 10px;
     flex-direction: column;
     justify-content: center; 
     align-items: center;
