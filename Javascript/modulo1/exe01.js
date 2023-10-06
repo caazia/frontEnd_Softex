@@ -16,7 +16,7 @@ function cadastrar(event) {
         alert("O salario deve ser preenchido.");
     }
     else if (idade === "") {
-        alert("O idade deve ser preenchido.");
+        alert("O idade deve ser preenchida.");
     }
     else {
         alert("Cadastro enviado!")
